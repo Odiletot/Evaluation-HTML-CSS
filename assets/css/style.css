@@ -1,0 +1,317 @@
+/* style global */
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+body p{
+  font-size: 18px;
+}
+/* Style navbar */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin:  auto 0;
+  position: sticky;
+  height: 70px;
+  background-color: #191919;
+  color: #fdfdfd;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+nav p{
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a{
+  text-decoration: none;
+  color: #fdfdfd;
+}
+nav ul{
+  text-align: right;
+}
+nav ul::before{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/*pour le header */
+header{
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.boxHeader{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+.boxHeader h1{
+  font-size: 4em;
+  width: 50px;
+}
+.boxHeader button{
+  padding: 10px;
+  background-color: transparent;
+}
+.boxHeader img{
+  width: 60%;
+  height: 100%;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.texteHeader{
+  padding-left: 60px;
+  width: 80%;
+  height: 80%;
+}
+.texteHeader button{
+  padding-top: 10px;
+}
+/* Pour la première section
+ (présentation des images)*/
+.sectionImage{
+  display: flex;
+}
+.imgBox{
+  width: 25%;
+  height: 100%;
+}
+.imgBox img{
+  width: 100%;
+  height: 100%;
+}
+/* Pour la deuxième section (HAIR SALON) */
+.boxPresentationWork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.boxPresentationWorkImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.boxPresentationWorkText{
+  width: 80%;
+  height: 100%;
+  padding: 50px;
+}
+.boxPresentationWorkText button{
+  padding: 10px;
+  background-color: transparent;
+}
+.boxPresentationWorkText h2{
+  color: #919191;
+}
+.boxPresentationWorkImg img{
+  width: 80%;
+  height: 80%;
+}
+#secTwo{
+  padding-top: 20px;
+  border-bottom: 1px solid #f3f3f3;
+  box-shadow: 1px 1px 0px #f3f3f3;
+}
+/* Section service */
+.boxService{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.imgBoxService{
+  padding-top: 30px;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgBoxService img{
+  width: 80%;
+  height: 80%;
+}
+/* Ici c'est pour la partie des photos
+de Portfolio et Our Team */
+.secFor{
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.titleSecFor{
+    padding-top: 20px;
+}
+.boxSecFor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px 0px;
+}
+.imgSecFor{
+    margin: 0 20px;
+    background-color: white;
+    box-shadow: 2px 3px 2px #d3d3d3;
+}
+.imgSecFor img{
+  width: 100%;
+  height: auto;
+}
+.textSecFor{
+padding: 20px;
+}
+.butonCarousel{
+  width: 50px;
+  border-bottom: 3px solid white;
+  border-top: 1px solid  #f2f2f2;
+  border-left: 1px solid  #f2f2f2;
+  border-right: 1px solid  #f2f2f2;
+}
+.butonCarouselMiddle{
+  width: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-bottom: 3px solid #919191;
+  border-top: 1px solid  #f2f2f2;
+  border-left: 1px solid  #f2f2f2;
+  border-right: 1px solid  #f2f2f2;
+}
+/* Ici c'est la section WHAT WE DO */
+  .secFive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .boxSecFive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-left: 150px;
+    box-shadow: 3px 3px 3px #d3d3d3;
+  }
+  .boxSecFive2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxSecFive1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxSecFive2 img{
+    width: 100%;
+    height: 100%;
+  }
+/* Ici c'est la section contacter nous*/
+.secSix{
+  padding: 50px 10px;
+}
+.boxSecSix{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.boxSecSixForm{
+  width: 100%;
+}
+.boxSecSixFormMiddle{
+  padding-left: 150px;
+  width: 60%;
+}
+.boxSecSixImg img{
+  width: 80%;
+}
+.theInput{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  padding-top: 30px;
+}
+ input{
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.inputBottom{
+  background-color: white;
+  border: 1px solid #919191;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+/* Ici c'est pour le footer*/
+footer{
+  background-color: #191919;
+  color: #fdfdfd;
+  width: 100%;
+}
+.boxFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 400px;
+}
+.footerBox{
+  z-index: 10;
+  width: 20%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerBox li{
+  list-style-type: none;
+}
+.lastLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footerIcon{
+z-index: 20;
+}
+.footerIcon i{
+  font-size: 25px;
+  color: white;
+}
